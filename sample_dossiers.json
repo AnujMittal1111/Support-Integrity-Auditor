@@ -1,0 +1,611 @@
+[
+  {
+    "ticket_id": "TKT-100003",
+    "assigned_priority": "Low",
+    "inferred_severity": "High",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+2",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "fail",
+        "weight": "Medium"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "41 hours",
+        "interpretation": "Resolution took 41 hours, which is atypical for Low priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100003 regarding 'Login failed - Let' was assigned 'Low' priority but objective characteristics indicate 'High' severity (severity delta: +2). Due to the low priority classification, resolution was delayed to 41 hours.",
+    "confidence": "58.7%"
+  },
+  {
+    "ticket_id": "TKT-100004",
+    "assigned_priority": "Medium",
+    "inferred_severity": "Critical",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+2",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "refund, fail",
+        "weight": "Medium"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "40 hours",
+        "interpretation": "Resolution took 40 hours, which is atypical for Medium priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100004 regarding 'Refund status - Attention' was assigned 'Medium' priority but objective characteristics indicate 'Critical' severity (severity delta: +2). Due to the low priority classification, resolution was delayed to 40 hours.",
+    "confidence": "78.3%"
+  },
+  {
+    "ticket_id": "TKT-100007",
+    "assigned_priority": "Medium",
+    "inferred_severity": "Critical",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+2",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "cancel, fail",
+        "weight": "Medium"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "27 hours",
+        "interpretation": "Resolution took 27 hours, which is atypical for Medium priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100007 regarding 'Payment failed - Win' was assigned 'Medium' priority but objective characteristics indicate 'Critical' severity (severity delta: +2). Due to the low priority classification, resolution was delayed to 27 hours.",
+    "confidence": "82.7%"
+  },
+  {
+    "ticket_id": "TKT-100008",
+    "assigned_priority": "High",
+    "inferred_severity": "High",
+    "mismatch_type": "False Alarm",
+    "severity_delta": "0",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "fail",
+        "weight": "Medium"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "65 hours",
+        "interpretation": "Resolution took 65 hours, which is atypical for High priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100008 regarding 'Login failed - Son' was assigned 'High' priority but describes a routine query indicating 'High' severity (severity delta: 0). It was resolved in 65 hours, inflating the critical queue.",
+    "confidence": "74.8%"
+  },
+  {
+    "ticket_id": "TKT-100012",
+    "assigned_priority": "Critical",
+    "inferred_severity": "Medium",
+    "mismatch_type": "False Alarm",
+    "severity_delta": "-2",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "fail",
+        "weight": "Medium"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "10 hours",
+        "interpretation": "Resolution took 10 hours, which is atypical for Critical priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100012 regarding 'Login failed - Surface' was assigned 'Critical' priority but describes a routine query indicating 'Medium' severity (severity delta: -2). It was resolved in 10 hours, inflating the critical queue.",
+    "confidence": "81.5%"
+  },
+  {
+    "ticket_id": "TKT-100014",
+    "assigned_priority": "Low",
+    "inferred_severity": "Critical",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+3",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "refund, fail",
+        "weight": "Medium"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "5 hours",
+        "interpretation": "Resolution took 5 hours, which is atypical for Low priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100014 regarding 'Payment failed - Close' was assigned 'Low' priority but objective characteristics indicate 'Critical' severity (severity delta: +3). Due to the low priority classification, resolution was delayed to 5 hours.",
+    "confidence": "82.9%"
+  },
+  {
+    "ticket_id": "TKT-100026",
+    "assigned_priority": "Medium",
+    "inferred_severity": "High",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+1",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "cancel",
+        "weight": "Medium"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "56 hours",
+        "interpretation": "Resolution took 56 hours, which is atypical for Medium priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100026 regarding 'Update credit card - Film' was assigned 'Medium' priority but objective characteristics indicate 'High' severity (severity delta: +1). Due to the low priority classification, resolution was delayed to 56 hours.",
+    "confidence": "72.5%"
+  },
+  {
+    "ticket_id": "TKT-100036",
+    "assigned_priority": "High",
+    "inferred_severity": "Low",
+    "mismatch_type": "False Alarm",
+    "severity_delta": "-2",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "None directly flagged",
+        "weight": "Low"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "12 hours",
+        "interpretation": "Resolution took 12 hours, which is atypical for High priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100036 regarding 'Phishing attempt - Close' was assigned 'High' priority but describes a routine query indicating 'Low' severity (severity delta: -2). It was resolved in 12 hours, inflating the critical queue.",
+    "confidence": "84.4%"
+  },
+  {
+    "ticket_id": "TKT-100039",
+    "assigned_priority": "Critical",
+    "inferred_severity": "Medium",
+    "mismatch_type": "False Alarm",
+    "severity_delta": "-2",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "stolen",
+        "weight": "Medium"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "13 hours",
+        "interpretation": "Resolution took 13 hours, which is atypical for Critical priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100039 regarding 'Stolen card - Music' was assigned 'Critical' priority but describes a routine query indicating 'Medium' severity (severity delta: -2). It was resolved in 13 hours, inflating the critical queue.",
+    "confidence": "84.1%"
+  },
+  {
+    "ticket_id": "TKT-100045",
+    "assigned_priority": "Critical",
+    "inferred_severity": "Medium",
+    "mismatch_type": "False Alarm",
+    "severity_delta": "-2",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "None directly flagged",
+        "weight": "Low"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "4 hours",
+        "interpretation": "Resolution took 4 hours, which is atypical for Critical priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100045 regarding 'Phishing attempt - Thousand' was assigned 'Critical' priority but describes a routine query indicating 'Medium' severity (severity delta: -2). It was resolved in 4 hours, inflating the critical queue.",
+    "confidence": "84.4%"
+  },
+  {
+    "ticket_id": "TKT-100048",
+    "assigned_priority": "Medium",
+    "inferred_severity": "Critical",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+2",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "cancel, sue, fail",
+        "weight": "High"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "39 hours",
+        "interpretation": "Resolution took 39 hours, which is atypical for Medium priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100048 regarding 'Payment failed - Common' was assigned 'Medium' priority but objective characteristics indicate 'Critical' severity (severity delta: +2). Due to the low priority classification, resolution was delayed to 39 hours.",
+    "confidence": "83.2%"
+  },
+  {
+    "ticket_id": "TKT-100053",
+    "assigned_priority": "High",
+    "inferred_severity": "High",
+    "mismatch_type": "False Alarm",
+    "severity_delta": "0",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "fail",
+        "weight": "Medium"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "3 hours",
+        "interpretation": "Resolution took 3 hours, which is atypical for High priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100053 regarding 'Login failed - Some' was assigned 'High' priority but describes a routine query indicating 'High' severity (severity delta: 0). It was resolved in 3 hours, inflating the critical queue.",
+    "confidence": "53.9%"
+  },
+  {
+    "ticket_id": "TKT-100056",
+    "assigned_priority": "Critical",
+    "inferred_severity": "Medium",
+    "mismatch_type": "False Alarm",
+    "severity_delta": "-2",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "sue",
+        "weight": "Medium"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "23 hours",
+        "interpretation": "Resolution took 23 hours, which is atypical for Critical priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100056 regarding 'Installation issue - Center' was assigned 'Critical' priority but describes a routine query indicating 'Medium' severity (severity delta: -2). It was resolved in 23 hours, inflating the critical queue.",
+    "confidence": "70.0%"
+  },
+  {
+    "ticket_id": "TKT-100057",
+    "assigned_priority": "High",
+    "inferred_severity": "Medium",
+    "mismatch_type": "False Alarm",
+    "severity_delta": "-1",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "stolen",
+        "weight": "Medium"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "22 hours",
+        "interpretation": "Resolution took 22 hours, which is atypical for High priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100057 regarding 'Stolen card - Represent' was assigned 'High' priority but describes a routine query indicating 'Medium' severity (severity delta: -1). It was resolved in 22 hours, inflating the critical queue.",
+    "confidence": "56.6%"
+  },
+  {
+    "ticket_id": "TKT-100059",
+    "assigned_priority": "Medium",
+    "inferred_severity": "Medium",
+    "mismatch_type": "False Alarm",
+    "severity_delta": "0",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "fail",
+        "weight": "Medium"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "25 hours",
+        "interpretation": "Resolution took 25 hours, which is atypical for Medium priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100059 regarding 'Charged twice - Either' was assigned 'Medium' priority but describes a routine query indicating 'Medium' severity (severity delta: 0). It was resolved in 25 hours, inflating the critical queue.",
+    "confidence": "81.0%"
+  },
+  {
+    "ticket_id": "TKT-100061",
+    "assigned_priority": "Critical",
+    "inferred_severity": "Critical",
+    "mismatch_type": "False Alarm",
+    "severity_delta": "0",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "freeze, down, error",
+        "weight": "High"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "18 hours",
+        "interpretation": "Resolution took 18 hours, which is atypical for Critical priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100061 regarding 'Screen freezes - Whose' was assigned 'Critical' priority but describes a routine query indicating 'Critical' severity (severity delta: 0). It was resolved in 18 hours, inflating the critical queue.",
+    "confidence": "77.0%"
+  },
+  {
+    "ticket_id": "TKT-100062",
+    "assigned_priority": "High",
+    "inferred_severity": "High",
+    "mismatch_type": "False Alarm",
+    "severity_delta": "0",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "crash, fail",
+        "weight": "Medium"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "2 hours",
+        "interpretation": "Resolution took 2 hours, which is atypical for High priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100062 regarding 'Login failed - Voice' was assigned 'High' priority but describes a routine query indicating 'High' severity (severity delta: 0). It was resolved in 2 hours, inflating the critical queue.",
+    "confidence": "63.2%"
+  },
+  {
+    "ticket_id": "TKT-100063",
+    "assigned_priority": "Low",
+    "inferred_severity": "High",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+2",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "cancel, manager",
+        "weight": "Medium"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "61 hours",
+        "interpretation": "Resolution took 61 hours, which is atypical for Low priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100063 regarding 'Suspicious charge - Within' was assigned 'Low' priority but objective characteristics indicate 'High' severity (severity delta: +2). Due to the low priority classification, resolution was delayed to 61 hours.",
+    "confidence": "81.1%"
+  },
+  {
+    "ticket_id": "TKT-100065",
+    "assigned_priority": "High",
+    "inferred_severity": "High",
+    "mismatch_type": "False Alarm",
+    "severity_delta": "0",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "immediate, hacked",
+        "weight": "Medium"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "4 hours",
+        "interpretation": "Resolution took 4 hours, which is atypical for High priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100065 regarding 'Account hacked - Tough' was assigned 'High' priority but describes a routine query indicating 'High' severity (severity delta: 0). It was resolved in 4 hours, inflating the critical queue.",
+    "confidence": "82.9%"
+  },
+  {
+    "ticket_id": "TKT-100067",
+    "assigned_priority": "Low",
+    "inferred_severity": "High",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+2",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "refund, fail",
+        "weight": "Medium"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "12 hours",
+        "interpretation": "Resolution took 12 hours, which is atypical for Low priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100067 regarding 'Payment failed - Table' was assigned 'Low' priority but objective characteristics indicate 'High' severity (severity delta: +2). Due to the low priority classification, resolution was delayed to 12 hours.",
+    "confidence": "83.2%"
+  },
+  {
+    "ticket_id": "TKT-100068",
+    "assigned_priority": "Low",
+    "inferred_severity": "Medium",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+1",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "refund",
+        "weight": "Medium"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "26 hours",
+        "interpretation": "Resolution took 26 hours, which is atypical for Low priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100068 regarding 'Refund status - Audience' was assigned 'Low' priority but objective characteristics indicate 'Medium' severity (severity delta: +1). Due to the low priority classification, resolution was delayed to 26 hours.",
+    "confidence": "55.0%"
+  },
+  {
+    "ticket_id": "TKT-100074",
+    "assigned_priority": "Critical",
+    "inferred_severity": "Medium",
+    "mismatch_type": "False Alarm",
+    "severity_delta": "-2",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "not syncing",
+        "weight": "Medium"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "19 hours",
+        "interpretation": "Resolution took 19 hours, which is atypical for Critical priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100074 regarding 'Data not syncing - Her' was assigned 'Critical' priority but describes a routine query indicating 'Medium' severity (severity delta: -2). It was resolved in 19 hours, inflating the critical queue.",
+    "confidence": "81.4%"
+  },
+  {
+    "ticket_id": "TKT-100078",
+    "assigned_priority": "High",
+    "inferred_severity": "Medium",
+    "mismatch_type": "False Alarm",
+    "severity_delta": "-1",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "fail",
+        "weight": "Medium"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "52 hours",
+        "interpretation": "Resolution took 52 hours, which is atypical for High priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100078 regarding 'Payment failed - Play' was assigned 'High' priority but describes a routine query indicating 'Medium' severity (severity delta: -1). It was resolved in 52 hours, inflating the critical queue.",
+    "confidence": "56.4%"
+  },
+  {
+    "ticket_id": "TKT-100079",
+    "assigned_priority": "Low",
+    "inferred_severity": "High",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+2",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "cancel, refund",
+        "weight": "Medium"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "7 hours",
+        "interpretation": "Resolution took 7 hours, which is atypical for Low priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100079 regarding 'Refund status - Apply' was assigned 'Low' priority but objective characteristics indicate 'High' severity (severity delta: +2). Due to the low priority classification, resolution was delayed to 7 hours.",
+    "confidence": "82.5%"
+  },
+  {
+    "ticket_id": "TKT-100081",
+    "assigned_priority": "Critical",
+    "inferred_severity": "Medium",
+    "mismatch_type": "False Alarm",
+    "severity_delta": "-2",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "None directly flagged",
+        "weight": "Low"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "12 hours",
+        "interpretation": "Resolution took 12 hours, which is atypical for Critical priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100081 regarding 'Unrecognized login - Late' was assigned 'Critical' priority but describes a routine query indicating 'Medium' severity (severity delta: -2). It was resolved in 12 hours, inflating the critical queue.",
+    "confidence": "85.5%"
+  },
+  {
+    "ticket_id": "TKT-100085",
+    "assigned_priority": "Low",
+    "inferred_severity": "Medium",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+1",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "cancel",
+        "weight": "Medium"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "64 hours",
+        "interpretation": "Resolution took 64 hours, which is atypical for Low priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100085 regarding 'Update credit card - Factor' was assigned 'Low' priority but objective characteristics indicate 'Medium' severity (severity delta: +1). Due to the low priority classification, resolution was delayed to 64 hours.",
+    "confidence": "81.7%"
+  },
+  {
+    "ticket_id": "TKT-100090",
+    "assigned_priority": "Low",
+    "inferred_severity": "Medium",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+1",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "cancel",
+        "weight": "Medium"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "79 hours",
+        "interpretation": "Resolution took 79 hours, which is atypical for Low priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100090 regarding 'Invoice discrepancy - Itself' was assigned 'Low' priority but objective characteristics indicate 'Medium' severity (severity delta: +1). Due to the low priority classification, resolution was delayed to 79 hours.",
+    "confidence": "76.3%"
+  },
+  {
+    "ticket_id": "TKT-100091",
+    "assigned_priority": "Medium",
+    "inferred_severity": "Medium",
+    "mismatch_type": "False Alarm",
+    "severity_delta": "0",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "fail",
+        "weight": "Medium"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "38 hours",
+        "interpretation": "Resolution took 38 hours, which is atypical for Medium priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100091 regarding 'Payment failed - Where' was assigned 'Medium' priority but describes a routine query indicating 'Medium' severity (severity delta: 0). It was resolved in 38 hours, inflating the critical queue.",
+    "confidence": "67.8%"
+  },
+  {
+    "ticket_id": "TKT-100096",
+    "assigned_priority": "Critical",
+    "inferred_severity": "Medium",
+    "mismatch_type": "False Alarm",
+    "severity_delta": "-2",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "hacked",
+        "weight": "Medium"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "4 hours",
+        "interpretation": "Resolution took 4 hours, which is atypical for Critical priority."
+      }
+    ],
+    "constraint_analysis": "Ticket TKT-100096 regarding 'Account hacked - Human' was assigned 'Critical' priority but describes a routine query indicating 'Medium' severity (severity delta: -2). It was resolved in 4 hours, inflating the critical queue.",
+    "confidence": "84.0%"
+  }
+]
